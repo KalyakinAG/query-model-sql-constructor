@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="025b909e-2eb9-42b4-8395-da3d7c568685">
+  <name>КонструкторМоделиЗапросаSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор модели запроса SQL</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d9d85fca-d189-4e27-b3a2-926184eae471"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="70c38cac-8949-4c29-af0a-7ee254b696b6"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="97f92100-cbfc-4ddf-a06b-13cd9773315e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="5750e49f-97cd-4bbe-bc86-026d405f1706"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d6ef3478-6492-4760-8075-6ff86c345fb0"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="11568711-ba0c-4c2d-bad6-a1434871997b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c274920a-3d06-4b86-9210-64a9cf91ef94"/>
+  <namePrefix>KASL</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <scriptVariant>Russian</scriptVariant>
+  <subsystems>Subsystem.KASL</subsystems>
+  <dataProcessors>DataProcessor.КонструкторМоделиЗапросаSQL</dataProcessors>
+</mdclass:Configuration>

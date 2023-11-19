@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f41eb65-f95f-4ac0-bae8-7a79686a98db">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aab3201e-ff4c-4420-98db-9471303bf745">
   <producedTypes>
-    <objectType typeId="bc6f5ce4-f122-4a01-9ffe-19e4a2195109" valueTypeId="a207b841-a3ba-4059-804a-2a8246aa96bc"/>
+    <objectType typeId="853823cc-3d6b-4e48-aaeb-3268a6ec71b4" valueTypeId="d6ffda8f-8a9f-445e-9966-f88364f9dcb9"/>
+    <managerType typeId="af5d91d5-89e5-418b-8dbc-e64aa131b94f" valueTypeId="138cb8b3-26bb-4cea-939e-e0c489e6f403"/>
   </producedTypes>
-  <name>_ДемоМодельЗапросаSQL</name>
+  <name>КонструкторМоделиЗапросаSQL</name>
   <synonym>
     <key>ru</key>
-    <value>Демо &quot;Модель запроса SQL&quot;</value>
+    <value>Конструктор модели запроса SQL</value>
   </synonym>
-  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="fef308c9-d446-40e0-925c-207e0ebcd86c"/>
-  <defaultForm>ExternalDataProcessor._ДемоМодельЗапросаSQL.Form.Форма</defaultForm>
-  <attributes uuid="64538436-617c-4cad-8cc4-fca42a0ad683">
-    <name>ЭтоПодключениеКРабочейБазе</name>
-    <synonym>
-      <key>ru</key>
-      <value>Это подключение к рабочей базе</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="4f8845a9-ebb8-40dc-81b2-d33a52e2ae76">
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонструкторМоделиЗапросаSQL.Form.Форма</defaultForm>
+  <attributes uuid="2521d638-1925-403f-9ee3-0746afacc8a1">
     <name>ТекстЗапроса</name>
     <synonym>
       <key>ru</key>
       <value>Текст запроса</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>TextDocument</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="89beb1e3-e727-41de-b78d-026b79592ec7">
+  <attributes uuid="c91cb533-c0d2-4af1-b598-6937594c1dd0">
+    <name>ТекстМодели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст модели</value>
+    </synonym>
+    <type>
+      <types>TextDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7b110782-927a-4348-8339-6160d25c8ce5">
     <name>ТипСУБД</name>
     <synonym>
       <key>ru</key>
@@ -50,7 +50,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="54a376d4-8ec9-4190-b313-c45025e34d24">
+  <attributes uuid="6d78ae94-ae9e-4858-a98e-2f53e2b7f250">
     <name>Сервер</name>
     <synonym>
       <key>ru</key>
@@ -65,7 +65,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="324d23c5-11f9-490e-a67d-a2976756374f">
+  <attributes uuid="4801ee16-9b7d-4eac-96a5-d98cf2afeb84">
     <name>ИмяБазыДанных</name>
     <synonym>
       <key>ru</key>
@@ -80,7 +80,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="c35a2028-798a-43dd-a6eb-318252c2123f">
+  <attributes uuid="c212e74e-3cb2-40e4-9630-2e39e4e07606">
     <name>ИмяПользователя</name>
     <synonym>
       <key>ru</key>
@@ -95,7 +95,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="f85a6ac0-a859-4979-8670-cdca960bc0c6">
+  <attributes uuid="1aaa7a8f-e49e-49a2-92be-b428a9deb5bf">
     <name>Пароль</name>
     <synonym>
       <key>ru</key>
@@ -111,7 +111,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="6722d4a5-af48-4d9a-abb9-63890657c3ff">
+  <attributes uuid="f906e54d-baee-40d2-9891-71e23140afa2">
     <name>АутентификацияNTLM</name>
     <synonym>
       <key>ru</key>
@@ -123,7 +123,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="3818294c-0175-4d07-bbbb-2084cde6c927">
+  <attributes uuid="c2d0bc70-d6f7-4d38-b496-0504c9fd90c0">
     <name>СмещениеДат2000</name>
     <synonym>
       <key>ru</key>
@@ -135,7 +135,45 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <forms uuid="1f37e0f1-261a-4a27-ba17-30d01ce8c507">
+  <attributes uuid="4c867b8b-5ac2-4aa5-a08c-3510424d4f97">
+    <name>РезультатJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат JSON</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d553c818-77f2-4791-b6e2-bc7b0492eb18">
+    <name>ВыполнятьНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять на сервере</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="97ddda05-cbf9-4683-9ab7-cf2e55a9ff41">
+    <name>СтрокаСоединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка соединения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5a72f118-5cc6-4f65-b83f-a22cdee0aac9">
     <name>Форма</name>
     <synonym>
       <key>ru</key>
@@ -144,4 +182,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-</mdclass:ExternalDataProcessor>
+  <forms uuid="1fbe2521-6ac3-43c9-aa45-406419ed21cf">
+    <name>МакетПеречисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет перечисления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
